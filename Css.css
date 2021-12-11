@@ -1,0 +1,10 @@
+.red-text {
+    color: red;
+  }
+
+  body{
+    background-color: rgb(247, 240, 250);
+}
+  #liste {
+      font-size: 30px;
+  }

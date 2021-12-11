@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>First Project</title>
+  <style>
+    .prog {
+      border: rgb(255, 30, 0);
+      color: rgb(119, 0, 255);
+    }
+  </style>
+  <link rel="stylesheet" href="Css.css">
+  <script>
+    function submit() {
+      return confirm('Do you really want to submit the form?');
+    }
+  </script>
+
+</head>
+
+<body>
+
+  <p>Hello <strong> World</strong> !</p>
+  <a href="https://www.youtube.com"> Youtube </a>
+  <h1>Hello</h1>
+  <h2>Hello</h2>
+  <h3>Hello</h3>
+  <h4>Hello</h4>
+  <h5>Hello</h5>
+  <h6>Hello</h6>
+  <p class="prog">Lorem ipsum dolor sit amet <em>cmpore rem co</em> nsectetur. Laudernatur placeat, omnis itaque.</p>
+  <pre>Lorem ipsum dolor sit amet.</pre>
+  <ol id="liste">
+    <li>rouge</li>
+    <li>blue</li>
+    <li>vert</li>
+  </ol>
+  <ul>
+    <li>rouge</li>
+    <li>blue</li>
+    <li>vert</li>
+  </ul>
+  <!-- Table creation-->
+  <table class="red-text" border="1">
+    <caption>Table des notes</caption>
+    <tr>
+      <th colspan="2">Number</th>
+      <!-- Fusioner deux ligne-->
+      <th>Number</th>
+    </tr>
+
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td rowspan=2>6</td>
+      <!-- Fusionner ligne-->
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>4</td>
+
+    </tr>
+  </table>
+  <label for="name">Name:</label>
+  <input type="text" name="Nom" required minlength="5" maxlength="20"><br>
+  <label for="Comment">Comment:</label><br>
+  <textarea name="Comment" id="Comment" cols="30" rows="10"></textarea><br>
+
+  <!-- Formulaire-->
+
+  <form name="mon-formulaire1" action="Sendpage.html" method="get">
+    First name: <input type="text" name="fname" required minlength="3" maxlength="20"><br>
+    Last name: <input type="text" name="lname" required minlength="3" maxlength="20"><br>
+    <label for="birthday">Birthday:</label>
+    <input type="date" name="birthday" min="1991-01-01" max="2010-01-01"><br>
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email" required placeholder="Exemple@gmail.com" pattern=".+@gmail.com"><br>
+    <button type="submit" value="Submit">Submit</button>
+  </form>
+  <!--
+     <img src="Nature.jpg" alt="Picture" style="width:900px;height:600px;">
+   -->
+</body>
+
+</html>

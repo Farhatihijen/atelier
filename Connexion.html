@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Get Groovy - Connexion</title>
+    <link rel="icon" href="Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="Get Groovy.html">
+    <style>
+
+    </style>
+
+
+    <script>
+
+    </script>
+
+</head>
+
+<body>
+    <h1>Get Groovy</h1>
+    <nav>
+        <table>
+            <tr>
+                <td><a href="Get Groovy.html"> Acceuil </a></td>
+                <td><a href="Get Groovy.html"> Albums </a></td>
+                <td><a href="#divgrov"> Promotions </a></td>
+                <td><a href="Get Groovy.html"> Contact </a></td>
+                <td><a href="Get Groovy.html"> Inscription </a></td>
+            </tr>
+        </table>
+    </nav>
+    <hr>
+    <img src="Capture.JPG" alt="Picture" style="width:1200px;height:250px;">
+    <h2>Welcome to the groove</h2>
+    <hr>
+    <form name="mon-formulaire1" action="Sendpage.html" method="get">
+        <table border="1">
+            <tr>
+                <td rowspan="8">Fiche Personnelle</td>
+                <td> Nom:</td>
+                <td> <input type="text" name="Nom" required minlength="5" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td>Prenom:</td>
+                <td><input type="text" name="Prenom" required minlength="5" maxlength="20"></td>
+
+            </tr>
+            <tr>
+                <td>Date de naissance: </td>
+                <td> <input type="date" name="Birthday" min="2002-01-01" max="2021-12-15"></td>
+
+            </tr>
+            <tr>
+                <td>sexe: </td>
+                <td> <input type="radio" id="Homme" name="sexe" value="Homme" checked> <label for="Sexe">Homme</label>
+                    <input type="radio" id="Femme" name="sexe" value="Femme" checked> <label for="Sexe">Femme</label>
+                </td>
+
+            </tr>
+            <tr>
+                <td> Adresse mail:</td>
+                <td><input type="email" id="email" name="email" required placeholder="Exemple@gmail.com"
+                        pattern=".+@gmail.com"> </td>
+
+            </tr>
+            <tr>
+                <td>Téléphone: </td>
+                <td><input type="tel" id="phone" name="phone" placeholder="12-345-678"
+                        pattern="[0-9]{2}-[0-9]{3}-[0-9]{3}" required> </td>
+
+            </tr>
+            <tr>
+                <td>Profession: </td>
+                <td> <select name="Profession">
+                        <option value="1">étudiant</option>
+                        <option value="2">enseignant</option>
+                        <option value="3">ingénieur</option>
+                    </select></td>
+
+            </tr>
+            <tr>
+                <td>Adresse:</td>
+                <td><textarea name="Comment" id="Comment" cols="30" rows="10"></textarea> </td>
+
+            </tr>
+            <tr>
+                <td rowspan="2">Préférences </td>
+                <td colspan="2">
+                    <p>Style de musique:</p>
+                </td>
+            </tr>
+            <tr>
+
+                <td><input type="checkbox" id="Rock" name="Rock" value="Rock"><label for="Rock">Rock</label> <br>
+                    <input type="checkbox" id="Soul" name="Soul" value="Soul"><label for="Soul">Soul</label><br>
+                    <input type="checkbox" id="Jazz" name="Jazz" value="Jazz"><label for="Jazz">Jazz</label>
+                </td>
+                <td><input type="checkbox" id="R&D" name="R&D" value="R&D"> <label for="R&D">R&D</label><br>
+                    <input type="checkbox" id="Electronic" name="Electronic" value="Electronic"><label
+                        for="Electronic">Electronic</label><br>
+                    <input type="checkbox" id="Classic" name="Classic" value="Classic"><label
+                        for="Classic">Classic</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td rowspan="3"> Information de Connexion</td>
+                <td>Login: </td>
+                <td><input type="text" name="Login" required minlength="4" maxlength="20"> </td>
+            </tr>
+            <tr>
+
+                <td>Mot de passe: </td>
+                <td><input type="password" name="password" id="pass" required minlength="8"> </td>
+            </tr>
+            <tr>
+
+                <td>Confirmer mot de passe: </td>
+                <td><input type="password" name="password" id="pass" required minlength="8"> </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td><input type="submit" name="submit" id="submit" value="Envoyer"> </td>
+                <td><input type="reset" name="reser" id="reset" value="Annuler"> </td>
+            </tr>
+
+
+
+        </table>
+    </form>
+
+</body>
+
+</html>
