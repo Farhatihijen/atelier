@@ -1,0 +1,12 @@
+Github c'est un outil de versioning
+commit : name of every new version uploaded in github
+
+Type de selector : . or # or with tag
+
+phigma kif photoshop
+
+gride flex
+
+balsamiq web design maquitage
+
+agence de location de voiture maquet
